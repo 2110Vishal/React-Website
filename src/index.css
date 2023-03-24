@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;;
+}
+.Navbar
+{
+    background-color: #d4abab !important;
+}
+.navbar-nav
+{
+    font-size: 1.8rem !important;
+    color: #877c53 !important;
+
+}
+.menu_active{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.ml-auto{
+    font-size: 1.8rem !important;
+    text-transform: capitalize;
+}
+.ml-auto :hover
+{
+    color:skyblue !important;
+}
+#header h1{
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+#header h2{
+    font-size: 26px;
+    color: black;
+}
+.brand-name
+{
+    color: #0062cc;
+}
+.header-img
+{
+    text-align: right;
+
+}
+#header .animated
+{
+    animation:up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+  }
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+  }
+
+.nav{
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  .set-btn {
+    background: linear-gradient(to bottom right, #ee0979, #ff6a00); /* Add a gradient background */
+    color: #fff; /* Set the text color to white */
+    text-decoration: none;
+    border-radius: 50px; /* Set the border-radius to half the button height to create an oval shape */
+    padding: 10px 20px; /* Set the padding to create space inside the button */
+    font-size: 16px; /* Set the font size to the desired size */
+    cursor: pointer; /* Set the cursor to a pointer to indicate the button is clickable */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the button */
+    transition: all 0.3s ease; /* Add a transition effect to make the button animate smoothly */
+  }
+  
+  .set-btn:hover {
+    text-decoration: none;
+    background-color: #0062cc; /* Change the background color on hover */
+    color: #fff; /* Change the text color on hover */
+    border-radius: 50px; /* Change the border-radius on hover to create a more rounded shape */
+  }
+  .card-btn{
+    background: linear-gradient(to bottom right,pink, #7b5f3d); /* Add a gradient background */
+    color: #fff; /* Set the text color to white */
+    text-decoration: none;
+    border-radius: 50px; /* Set the border-radius to half the button height to create an oval shape */
+    padding: 10px 20px; /* Set the padding to create space inside the button */
+    font-size: 16px; /* Set the font size to the desired size */
+    cursor: pointer; /* Set the cursor to a pointer to indicate the button is clickable */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the button */
+    transition: all 0.3s ease; /* Add a transition effect to make the button animate smoothly */
+  }
+  .card-btn:hover{
+    text-decoration: none;
+    color: black;
+    font-weight:100;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:lightgrey;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
